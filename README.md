@@ -15,3 +15,7 @@ How to Use It
 2. Edit **config.js** to point at your own firebase app.
 3. Edit files **index.html**, **app.js** and files in the **/pages/app/** directory to create your Angular app.
 
+Demo
+===
+
+You can try the demo here: <https://fab-demo.firebaseapp.com>
