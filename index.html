@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>FAB</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+    <div ng-view></div>
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+<script src="bower_components/angular-strap/dist/angular-strap.js"></script>
+
+<script src="bower_components/firebase/firebase.js"></script>
+<script src="bower_components/firebase-simple-login/firebase-simple-login.js"></script>
+
+<script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
+<script src="bower_components/underscore/underscore.js"></script>
+
+<!-- app scripts -->
+<script src="app.js"></script>
+<script src="config.js"></script>
+
+<!-- scripts for the pages -->
+<script src="pages/removeUser/removeUser.js"></script>
+<script src="pages/changePassword/changePasswordController.js"></script>
+<script src="pages/welcome/welcomeController.js"></script>
+<script src="pages/login/loginController.js"></script>
+<script src="pages/register/registerController.js"></script>
+<script src="pages/forgot/forgotController.js"></script>
+<script src="pages/app/appController.js"></script>
+
+</body>
+</html>

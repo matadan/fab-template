@@ -1,0 +1,13 @@
+<form class="form-signin" role="form">
+    <h2 class="form-signin-heading">{{model.formHeaderText}}</h2>
+    <input type="email" class="form-control" placeholder="{{model.emailPlaceholderText}}" required autofocus ng-model="model.form.email" ng-focus="focusEmail()">
+
+    <div class="alert alert-danger" ng-show="model.showEmailTakenAlert">
+        {{model.emailAlreadyUsedAlertText}}
+        <a href="#/forgot">{{model.forgotPasswordLinkText}}</a>
+
+    </div>
+
+    <input type="password" class="form-control" placeholder="{{model.passwordPlaceholderText}}" required ng-model="model.form.password">
+    <button class="btn btn-lg btn-success btn-block" type="submit" ng-click="submit()">{{model.registerButtonText}}</button>
+</form>
